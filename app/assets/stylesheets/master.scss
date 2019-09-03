@@ -1,4 +1,4 @@
-@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
 
 .clear {
     clear: both;
@@ -38,6 +38,8 @@
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #22F8ED;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
 }
 
 header {
@@ -46,4 +48,15 @@ header {
 
 hr {
     clear:both;
+}
+
+h1 {
+font-family: 'Open Sans Condensed', sans-serif;
+font-weight: bold;
+font-size: 48px;
+}
+
+h2 {
+font-family: 'nobilemedium_italic';
+
 }
