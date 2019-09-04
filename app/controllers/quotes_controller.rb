@@ -3,9 +3,7 @@ class QuotesController < ApplicationController
   @quote = Quote.all.sample
   end
 
-  def new
-    @quote = Quote.new
-  end
+  
 def create
     @quote = Quote.create(quote_params)
   if @quote.invalid?
@@ -16,10 +14,10 @@ end
 
   def about
   end
-  
+
   private
 
   def quote_params
     params.require(:quote).permit(:saying, :author)
-end
+  end
 end
